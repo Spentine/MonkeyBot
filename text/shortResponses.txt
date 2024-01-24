@@ -1,0 +1,15 @@
+{
+  ";ping": "pong",
+  "gn": "gn",
+  "good night": "gn",
+  "gm": "gm",
+  "good morning": "gm",
+  "imma go to sleep": "gn",
+  "imma sleep": "gn",
+  "im gonna sleep": "gn",
+  "imma sleep now": "gn",
+  "now imma sleep": "gn",
+  "ima sleep": "gn",
+  "i woke up": "gm",
+  "i just woke up": "gm",
+}

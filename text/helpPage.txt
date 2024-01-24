@@ -1,0 +1,65 @@
+{
+  "home": "The help command is designed so that a new user can understand how to use basic functions of the bot.",
+  ";ping": "Responds `pong` to `;ping`. This is primarily used to test if the bot is active.",
+  ";quote": "When used on its own, it returns a random quote. When an integer is placed after the command, it returns a quote that corresponds to that number. If `count` is placed after the command, it returns the number of total quotes.",
+  ";help": "View homepage with `;help`.",
+  "list": '''List of Commands:
+1. `;ping`
+2. `;quote`
+3. `;help`
+4. `;admin`
+5. `;2048`
+  ''',
+  ";2048": "Displays a 2048 game. There are buttons so that the game is interactive.",
+  ";admin": '''This command contains a group of commands. These commands require for the user to be an administrator. To search on the help pages, use `;help admin-[command]`.
+1. `;admin error`
+2. `;admin quote`
+3. `;admin cstr`
+4. `;admin tctr`
+5. `;admin help`
+6. `;admin kys`
+7. `;admin 2048`
+  ''',
+  ";admin-error": "This command raises an error. It is used to test out error handling.",
+  ";admin-quote": '''This command contains various commands.
+
+`;admin quote add [cstr content] [cstr author]`
+ This command adds a new quote to the database of quotes.
+
+`;admin quote delete [index]`
+ This command deletes a quote corresponding to an index.
+
+`;admin quote list [index]`
+ This command lists out 12 successive quotes starting at `index`.
+
+`;admin quote dump [index] [c]`
+ Dumps the data out for a quote with index `index`. If `c` is `cmd`, then it will dump it out as a command that can be pasted back to add the quote again.
+ ''',
+  ";admin-cstr": "This command converts cstr into a regular string.",
+  ";admin-tctr": "This command converts a string into cstr. The string inputted is the message reply.",
+  ";admin-help": "This command dumps the raw help information for a page.",
+  ";admin-kys": "This command shuts down the bot. It requires the hoster to manually restart the bot.",
+  ";admin-2048": ''' This command contanis various commands.
+  
+  `;admin 2048 str`
+  This command outputs a string to represent the board state and the score.
+  
+  `;admin 2048 set [string]`
+  This command sets the current board state and the score to the string specified.
+  
+  `;admin 2048 reset`
+  This command resets the 2048 game.
+  
+  `;admin 2048 score [score]`
+  This command sets the score to the specified value.
+  
+  `;admin 2048 board [board]`
+  This command sets the board to the specified value.
+  
+  `admin 2048 skin dump`
+  This command outputs the current skin in a code block.
+  
+  `admin 2048 skin set [skin]`
+  This command sets the current skin to the specified emojis.
+  ''',
+}
