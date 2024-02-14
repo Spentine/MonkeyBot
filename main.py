@@ -238,7 +238,8 @@ async def interpret(message, channel):
     elif checkWords(message.content, badWords):
       await message.add_reaction("❌")
       await message.reply("bad word")
-    elif checkWords(message.content, sexWords):
+    # elif checkWords(message.content, sexWords):
+    elif False:
       await message.add_reaction("💦")
       await message.reply("*daddy~*")
     elif message.content.lower() in shortResponses.keys():
